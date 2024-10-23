@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+nav {
+    background-color: #007ACC;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.landing {
+    background-color: #E0F7FA;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.landing h1 {
+    font-size: 2.5rem;
+    color: #007ACC;
+}
+
+.landing p {
+    max-width: 700px;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.landing img,.social-logo,.Researchpic, .institution-image, .competition img {
+    width: 300px;
+    height: 220px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(24, 56, 215, 0.2);
+}
+
+.contact-intro, .contact-details {
+    background-color: #E0F7FA;
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-details a {
+    color: #007ACC;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+.button, a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    background-color: #007BFF;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    background-color: #FF6F61;
+}
+
+a:hover {
+    background-color: #FF3D33; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.achievements, .skills-projects, .competition {
+    margin: 20px auto;
+}
+
+.competition a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .landing h1 {
+        font-size: 2rem;
+    }
+
+    .landing p {
+        font-size: 1rem;
+    }
+}
